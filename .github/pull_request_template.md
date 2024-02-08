@@ -10,10 +10,10 @@ Please list any related issues or tickets that this pull request addresses.
 
 Please describe the changes made in this pull request in detail.
 
-## Screenshots/Recordings (if applicable)
+## Screenshots/Recordings
 
-If your changes include any visual updates or user facing changes, please provide screenshots or video recordings to demonstrate the changes. Otherwise, remove this section.
+If your changes include any visual updates or user-facing changes, please provide screenshots or video recordings to demonstrate the changes. Otherwise, remove this section.
 
-## Additional Notes (if applicable)
+## Additional Notes
 
 Please provide any additional notes or context that may be helpful for reviewers if available. Otherwise, remove this section.
