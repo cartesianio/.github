@@ -1,0 +1,12 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Default community health files at Cartesian.",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}

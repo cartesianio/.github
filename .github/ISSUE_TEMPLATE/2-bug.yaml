@@ -1,8 +1,8 @@
 name: 🐞 Bug
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug"]
-projects: ["cartesian-io/2"]
+title: '[Bug]: '
+labels: ['bug']
+projects: ['cartesian-io/2']
 body:
   - type: markdown
     attributes:
@@ -27,7 +27,7 @@ body:
     attributes:
       label: Version
       description: In which version or commit did this happen?
-      placeholder: "1.0.2"
+      placeholder: '1.0.2'
   - type: textarea
     id: reproduction-steps
     attributes:
