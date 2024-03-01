@@ -1,19 +1,19 @@
-## Description
+### Description
 
-Please provide a brief description of the changes made in this pull request.
+_Please provide a brief description of the changes made in this pull request._
 
-## Related Issues
+### Related Issues
 
-Please list any related issues or tickets that this pull request addresses.
+_Please list any related issues or tickets that this pull request addresses._
 
-## Changes Made
+### Changes Made
 
-Please describe the changes made in this pull request in detail.
+_Please describe the changes made in this pull request in detail._
 
-## Screenshots/Recordings
+### Screenshots/Recordings
 
-If your changes include any visual updates or user-facing changes, please provide screenshots or video recordings to demonstrate the changes. Otherwise, remove this section.
+_If your changes include any visual updates or user-facing changes, please provide screenshots or video recordings to demonstrate the changes. Otherwise, remove this section._
 
-## Additional Notes
+### Additional Notes
 
-Please provide any additional notes or context that may be helpful for reviewers if available. Otherwise, remove this section.
+_Please provide any additional notes or context that may be helpful for reviewers if available. Otherwise, remove this section._
