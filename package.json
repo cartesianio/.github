@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Default community health files at Cartesian.",
   "scripts": {
-    "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write ."
   },
   "dependencies": {
     "prettier": "^3.2.5"
