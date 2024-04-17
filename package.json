@@ -6,6 +6,9 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write ."
   },
+  "engines": {
+    "pnpm": "^9.0.0"
+  },
   "dependencies": {
     "prettier": "^3.2.5"
   }

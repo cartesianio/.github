@@ -12,10 +12,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Get PNPM version from package.json
+        id: pnpm-version
+        shell: bash
+        run: echo "pnpm_version=$(jq -r '.engines.pnpm' ./package.json)" >> $GITHUB_OUTPUT
+
       - name: Install PNPM
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: ${{ steps.pnpm-version.outputs.pnpm_version }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
