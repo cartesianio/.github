@@ -15,7 +15,11 @@ jobs:
       - name: Get PNPM version from package.json
         id: pnpm-version
         shell: bash
-        run: echo "pnpm_version=$(jq -r '.engines.pnpm' ./package.json)" >> $GITHUB_OUTPUT
+        run: |
+          PACKAGE_MANAGER_VERSION=$(jq -r '.packageManager' ./package.json)
+          PACKAGE_MANAGER_VERSION=${PACKAGE_MANAGER_VERSION#pnpm@}   # remove "pnpm@"
+          PACKAGE_MANAGER_VERSION=${PACKAGE_MANAGER_VERSION%%+*}     # remove everything after "+"
+          echo "pnpm_version=$PACKAGE_MANAGER_VERSION" >> $GITHUB_OUTPUT
 
       - name: Install PNPM
         uses: pnpm/action-setup@v3
