@@ -7,7 +7,7 @@
     "format:write": "prettier --write ."
   },
   "dependencies": {
-    "prettier": "^3.4.2"
+    "prettier": "^3.5.0"
   },
   "devDependencies": {
     "prettier-plugin-packagejson": "^2.5.8"
