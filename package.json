@@ -12,5 +12,5 @@
   "devDependencies": {
     "prettier-plugin-packagejson": "^2.5.10"
   },
-  "packageManager": "pnpm@9.15.6"
+  "packageManager": "pnpm@9.15.7"
 }
